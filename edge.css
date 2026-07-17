@@ -205,9 +205,21 @@ main {
 }
 
 /* Edge Content (reserved for future use) */
+.edge-content-panels {
+    margin-top: 60px;
+}
+
 .edge-content {
     max-width: 1000px;
     margin: 0 auto 100px;
+    opacity: 0;
+    transform: translateY(15px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.edge-content.visible {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .intro-text {
