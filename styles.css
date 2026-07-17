@@ -124,6 +124,10 @@ main {
     opacity: 0.6;
 }
 
+.nav-break {
+    display: none;
+}
+
 /* Tagline */
 .tagline {
     text-align: center;
@@ -387,6 +391,13 @@ main {
         flex-wrap: wrap;
         gap: 20px;
         padding: 30px 20px;
+    }
+    
+    .nav-break {
+        display: block;
+        width: 100%;
+        flex-basis: 100%;
+        height: 0;
     }
     
     .main-nav a {
