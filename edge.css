@@ -498,6 +498,11 @@ main {
         font-size: 60px;
     }
     
+    .edge-title-row {
+        flex-direction: column;
+        gap: 14px;
+    }
+    
     .intro {
         font-size: 20px;
     }
